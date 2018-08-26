@@ -27,13 +27,13 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
+      "plugin:vue/strongly-recommended",
       "@vue/standard"
     ],
-    "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
-    }
+    },
+    "plugins": ["vue"]
   },
   "postcss": {
     "plugins": {
