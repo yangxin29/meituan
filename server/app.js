@@ -4,7 +4,7 @@ const path = require('path')
 
 app.listen(4000, err => {
   if (!err) {
-    console.log('listen 80')
+    console.log('listen 4000')
   }
 })
 
